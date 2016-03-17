@@ -1,0 +1,25 @@
+.resetButton {
+  margin: auto;
+  height: 30px;
+  width: auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: tahoma;
+  float: top;
+  border: #6699ff 2px solid;
+}
+
+  .box {
+    height: 90px;
+    width: 90px;
+    font-family: tahoma;
+    font-size: 85px;
+    font-weight: bold;
+    border: #6699ff 1px solid;
+    vertical-align: top;
+  }
+
+.title {
+  text-align: center;
+  font-family: tahoma;
+}
