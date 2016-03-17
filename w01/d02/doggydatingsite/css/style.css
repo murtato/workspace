@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: #009900;
+}
+
+body {
+  font-family: "Helvetica";
+  background-color: #ffff80;
+}
+
+p#Interactive-title {
+  font-size: 28px;
+  text-align: center;
+}
+
+h4 {
+  text-align: justify;
+  margin-left: relative;
+  margin-right: relative;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+div {
+  color: #444444;
+  text-align: center;
+}
+
+body.body2 {
+  border: 2px solid #234678;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+  #Interactive-title::first-letter {
+  font-size: 36px;
+  text-align: center;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+img {
+  align: center;
+}

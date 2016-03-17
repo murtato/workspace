@@ -1,0 +1,42 @@
+# Start of the Program
+
+Set currentTurn to "X"
+When a tile is clicked:
+    if currentTurn is "X"
+        Draw "X" on tile
+        Set currentTurn to "O"
+    else if currentTurn is "O"
+        Draw "O" on tile
+        Set currentTurn to "X"
+    Check for Winner
+    Check for Tie
+
+checkForWinner
+    playerTurn
+        if playerTurn is in tile 1, 2, 3 or
+        if playerTurn is in tile 4, 5, 6 or
+        if playerTurn is in tile 7, 8, 9 or
+        if playerTurn is in tile 1, 4, 7 or
+        if playerTurn is in tile 2, 5, 8 or
+        if playerTurn is in tile 3, 6, 9 or
+        if playerTurn is in tile 1, 5, 9 or
+        if playerTurn is in tile 3, 5, 7
+          playerTurn wins
+        else checkForTie
+
+checkForTie
+
+How to use an array to check for winner
+Set all boxes to the same class attribute <button class = "box">
+set up an array with the winning combinations
+[0 1 2, 3 4 5, 6 7 8, 0 3 6, 1 4 7, 2 5 8, 0 4 8, 2 4 6]
+assign variable to the array of tiles
+var tiles = document.getElementByClassName
+run For Loop for winCombos
+for Combo in winCombos
+    if tiles[combo(0)] == tiles[combo(1)] == tiles[combo(2)]
+    && tiles[combo(0)] != ""...
+        return tiles[combo(0)]
+      "X" or "O" depending on who's on tile
+--> Combo(0) will check the array [0 1 2], corresponding to the arrays within the larger array
+
